@@ -1,0 +1,277 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: blanchedalmond;
+}
+/*main our story start*/
+.main-our-story{
+    background: cornsilk;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin: 0px;
+    flex-wrap: wrap;
+}
+.main-our-story-image{
+    filter: grayscale(50%);
+    padding-right: 20px;
+    width: 50%;
+}
+.main-our-story-text h2{
+    font-family: 'Duru Sans';
+    letter-spacing: 2px;
+}
+.main-our-story-text{
+    width: 50%;
+    font-family: 'Average Sans';
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 20px;
+    color: rgba(0, 0, 0, 0.747);
+}
+/*main our story end*/
+
+.main-story{
+
+    background-color:blanchedalmond;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.main-story h2{
+    width: 50%;
+    margin: auto;
+    font-size: 30px;
+    font-family: 'Duru Sans';
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid black;
+}
+.story-intro1{
+    font-family: 'Duru Sans';
+    background-image: url('https://images.pexels.com/photos/2792186/pexels-photo-2792186.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    width: 60%;
+    max-height: 100vh;
+    float: left;
+}
+.story-intro2{
+    font-family: 'Duru Sans';
+    background-image: url('https://images.pexels.com/photos/2792186/pexels-photo-2792186.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    width: 60%;
+    max-height: 100vh;
+    float: right;
+    margin-bottom: 10px;
+}
+.story-intro3{
+    font-family: 'Duru Sans';
+    background-image: url('https://gfood.com.bd/wp-content/uploads/2020/10/7_Menu_RGB_700x800_Neo_2002001_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    margin: 0px;
+    background-attachment: fixed;
+    width: 60%;
+   float: left;
+    max-height: 100vh;
+}
+.story-intro4{
+    font-family: 'Duru Sans';
+    background-image: url('https://gfood.com.bd/wp-content/uploads/2020/10/7_Menu_RGB_700x800_Neo_2002001_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    margin: 0px;
+    background-attachment: fixed;
+    width: 60%;
+   float: right;
+    max-height: 100vh;
+    margin-bottom: 10px;
+}
+.story-intro5{
+    font-family: 'Duru Sans';
+    background-image: url('https://images.pexels.com/photos/4393529/pexels-photo-4393529.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    margin: 0px;
+    background-attachment: fixed;
+    width: 60%;
+   float: left;
+    max-height: 100vh;
+}
+.story-intro6{
+    font-family: 'Duru Sans';
+    background-image: url('https://images.pexels.com/photos/4393529/pexels-photo-4393529.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    margin: 0px;
+    background-attachment: fixed;
+    width: 60%;
+   float: right;
+    max-height: 100vh;
+    margin-bottom: 10px;
+}
+.main-story-item::after{
+    content: "";
+  clear: both;
+  display: table;
+}
+.story-intro-details{
+    text-align: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blanchedalmond;
+    background-color: rgba(0, 0, 0, 0.726);
+}
+.story-intro-text{
+     width: 80%;
+    padding: 20px;
+}
+.story-intro-text h1{
+    font-size: 30px;
+    font-family: 'Duru Sans';
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.story-intro-text p{
+    font-size: 20px;
+    font-family: 'Average Sans';
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color:rgb(253, 251, 251);
+}
+
+
+
+
+@media screen and (max-width: 780px) {
+/*main our story start*/
+.main-our-story{
+    background: cornsilk;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin: 0px;
+    flex-wrap: wrap;
+}
+.main-our-story-image{
+    filter: grayscale(50%);
+    padding-right: 10px;
+    width: 80%;
+}
+.main-our-story-text h2{
+    font-family: 'Duru Sans';
+    letter-spacing: 2px;
+}
+.main-our-story-text{
+    width: 80%;
+    font-family: 'Average Sans';
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgba(0, 0, 0, 0.747);
+}
+/*main our story end*/
+
+.main-story{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.main-story h2{
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid black;
+}
+.story-intro1{
+    width: 90%;
+    float: none;
+    margin: auto;
+    max-height: 100vh;
+}
+.story-intro2{
+    width: 90%;
+   float: none;
+   margin: auto;
+    max-height: 100vh;
+    margin-bottom: 10px;
+}
+.story-intro3{
+    width: 90%;
+   float: none;
+   margin: auto;
+    max-height: 100vh;
+}
+.story-intro4{
+    width: 90%;
+   float: none;
+   margin: auto;
+    max-height: 100vh;
+    margin-bottom: 10px;
+}
+.story-intro5{
+    width: 90%;
+   float: none;
+   margin: auto;
+    max-height: 100vh;
+}
+.story-intro6{
+    width: 90%;
+   float: none;
+   margin: auto;
+    max-height: 100vh;
+    margin-bottom: 10px;
+}
+
+.story-intro-details{
+    text-align: center;
+    height: 60vh;
+}
+.story-intro-text{
+     width: 96%;
+    padding: 10px;
+}
+.story-intro-text h1{
+    font-size: 20px;
+    font-family: 'Duru Sans';
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.story-intro-text p{
+    font-size: 12px;
+    font-family: 'Average Sans';
+    padding-top: 5px;
+    padding-bottom: 10px;
+    color:rgb(253, 251, 251);
+}
+
+
+}
+
+
+
